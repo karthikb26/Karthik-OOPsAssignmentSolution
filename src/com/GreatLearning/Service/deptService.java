@@ -3,9 +3,6 @@ package com.GreatLearning.Service;
 import com.GreatLearning.Model.*;
 
 public class deptService {
-    adminDepartment admin = new adminDepartment();
-    hrDepartment hr = new hrDepartment();
-    techDepartment tech = new techDepartment();
 
     public void showAdminDeptDetails(adminDepartment admin) {
         System.out.println( "Welcome to "+admin.departmentName() );
